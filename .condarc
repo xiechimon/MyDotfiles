@@ -1,0 +1,7 @@
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda
+  - defaults
+auto_activate: false
+show_channel_urls: true

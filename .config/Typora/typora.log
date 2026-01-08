@@ -1,0 +1,1632 @@
+INFO 12/7/2025, 9:21:50 PM  launch with argv [/usr/share/typora/Typora]
+INFO 12/7/2025, 9:21:50 PM  ------------------start------------------
+INFO 12/7/2025, 9:21:50 PM  synced recovery
+[focus] 1
+user-dict.json not found
+ERROR 12/7/2025, 9:21:51 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/7/2025, 9:21:51 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/7/2025, 9:21:51 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[blur] 1
+[win] blur
+[focus] 2
+[blur] 2
+[focus] 2
+Require os
+request https://store.typora.io/api/client/activate
+[fetch]fetch https://store.typora.io/api/client/activate
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"FCPSZW-VNH332-NEEU97-MV5LHX\",\"email\":\"xiemom456@gmail.com\",\"l\":\"XM | xmon | Linux\",\"f\":\"m4x3jacZa4\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\",\"force\":false}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[activate]Fingerprint m4x3jacZa4
+[activate]Email xiemom456@gmail.com
+[activate]UUID 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[activate]License FCPSZW-VNH332-NEEU97-MV5LHX
+[activate]ComputerInfo XM | xmon | Linux
+[fetch]RetCode 200
+[fetch]Ret {"code":-1}
+replace ret: {"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJGQ1BTWlctVk5IMzMyLU5FRVU5Ny1NVjVMSFgiLCJ0eXBlIjoiIn0="}
+[License] response code is 0
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJGQ1BTWlctVk5IMzMyLU5FRVU5Ny1NVjVMSFgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"FCPSZW-VNH332-NEEU97-MV5LHX","type":""}
+ls put SLicense
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/7/2025, 9:23:27 PM  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 12/7/2025, 9:23:29 PM  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJGQ1BTWlctVk5IMzMyLU5FRVU5Ny1NVjVMSFgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"FCPSZW-VNH332-NEEU97-MV5LHX","type":""}
+[fetch]fetch https://store.typora.io/api/client/renew
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"FCPSZW-VNH332-NEEU97-MV5LHX\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\"}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[L] installDate is 12/7/2025, trail remains: 15 days
+[watch L] hasL: true
+Require fs
+INFO 12/7/2025, 9:23:29 PM  ------------------start------------------
+typora version: 1.9.3
+[Raven] instanceKey = ce25b21a-44bb-495f-a370-b127070054e6
+user-dict.json not found
+[Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[focus] 1
+INFO 12/7/2025, 9:23:29 PM  synced recovery
+ERROR 12/7/2025, 9:23:29 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/7/2025, 9:23:29 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/7/2025, 9:23:29 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[fetch]Ret {"success":false}
+replace ret: {"success":true,"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJGQ1BTWlctVk5IMzMyLU5FRVU5Ny1NVjVMSFgiLCJ0eXBlIjoiIn0="}
+ls put SLicense
+File.option.zoomByMouse = true;
+window.File && (function(){document.body.classList.remove("show-footer"),document.body.classList.add("hide-footer")})();
+window.File && (function(){document.body.classList.add("show-footer"),document.body.classList.remove("hide-footer")})();
+updateTheme
+ERROR 12/7/2025, 9:24:00 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/7/2025, 9:24:00 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+updateTheme
+ERROR 12/7/2025, 9:24:04 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/7/2025, 9:24:04 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+updateTheme
+ERROR 12/7/2025, 9:24:07 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/7/2025, 9:24:07 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+updateTheme
+ERROR 12/7/2025, 9:24:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/7/2025, 9:24:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+updateTheme
+ERROR 12/7/2025, 9:24:10 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/7/2025, 9:24:10 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+File.option.useCustomFontSize=true
+document.body.parentElement.style.fontSize = '14px'
+File.option.useCustomFontSize=false
+document.body.parentElement.style.fontSize = ''
+window.ClientCommand && ClientCommand.setZoomLevel(1)
+window.ClientCommand && ClientCommand.setZoomLevel(0)
+File.option.applyImageMoveForLocal = false
+File.option.applyImageMoveForLocal = true
+File.option.applyImageMoveForWeb = true
+File.option.applyImageMoveForWeb = false
+File.setDefaultImageStorage("./${filename}")
+[blur] 1
+[win] blur
+[focus] 1
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora")
+File.setDefaultImageStorage("./${filename}")
+File.setDefaultImageStorage("xiemom456@gmail.com./${filename}")
+File.setDefaultImageStorage("./${filename}")
+[blur] 1
+[win] blur
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora")
+[focus] 1
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/")
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/{")
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/{}")
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/{")
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/")
+File.setDefaultImageStorage("./${filename}")
+[blur] 1
+[win] blur
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora")
+[focus] 1
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora./${filename}")
+File.setDefaultImageStorage("/home/xmon/Pictures/Typora/${filename}")
+File.option.prettyIndent = true;
+File.option.prettyIndent = false;
+File.option.autoPairExtendSymbol = true;
+File.option.autoPairExtendSymbol = false;
+File.option.autoPairExtendSymbol = true;
+File.option.autoPairExtendSymbol = false;
+File.option.autoPairExtendSymbol = true;
+File.option.autoPairExtendSymbol = false;
+File.option.autoPairExtendSymbol = true;
+File.option.autoPairExtendSymbol = false;
+File.option.autoPairExtendSymbol = true;
+File.option.expandSimpleBlock = true;
+File.option.expandSimpleBlock = false;
+File.option.expandSimpleBlock = true;
+File.option.expandSimpleBlock = false;
+File.option.expandSimpleBlock = true;
+File.option.expandSimpleBlock = false;
+File.option.expandSimpleBlock = true;
+File.option.expandSimpleBlock = false;
+File.option.expandSimpleBlock = true;
+File.option.expandSimpleBlock = false;
+File.option.expandSimpleBlock = true;
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+INFO 12/7/2025, 9:26:43 PM  synced recovery
+INFO 12/7/2025, 9:26:47 PM  synced recovery
+INFO 12/7/2025, 9:26:53 PM  synced recovery
+INFO 12/7/2025, 9:26:54 PM  synced recovery
+INFO 12/7/2025, 9:26:56 PM  synced recovery
+INFO 12/7/2025, 9:26:58 PM  synced recovery
+INFO 12/7/2025, 9:26:59 PM  synced recovery
+INFO 12/7/2025, 9:27:00 PM  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 12/9/2025, 11:13:50 AM  50  launch with argv [/usr/share/typora/Typora]
+INFO 12/9/2025, 11:13:50 AM  201  ------------------start------------------
+DEBUG 12/9/2025, 11:13:50 AM  220  before setting 
+DEBUG 12/9/2025, 11:13:50 AM  242  prepDatabase /home/xmon/.config/Typora/profile.data
+DEBUG 12/9/2025, 11:13:50 AM  246  prepDatabase /home/xmon/.config/Typora/history.data
+INFO 12/9/2025, 11:13:50 AM  249  OS is linux 6.14.0-36-generic
+INFO 12/9/2025, 11:13:50 AM  249  launchFromDiffVersion, pre version is 1.9.3
+INFO 12/9/2025, 11:13:50 AM  249  start LM in devVersion=false
+INFO 12/9/2025, 11:13:50 AM  262  cleanupOlderCache
+INFO 12/9/2025, 11:13:50 AM  357  [watch L]
+DEBUG 12/9/2025, 11:13:50 AM  357  prepDatabase /home/xmon/.config/Typora/m4x3jacZa4
+ERROR 12/9/2025, 11:13:50 AM  363  error error:04000070:RSA routines:OPENSSL_internal:DATA_LEN_NOT_EQUAL_TO_MOD_LEN
+INFO 12/9/2025, 11:13:50 AM  363  no info
+INFO 12/9/2025, 11:13:50 AM  363  ls put SLicense
+DEBUG 12/9/2025, 11:13:50 AM  364  onUnfillLicense
+DEBUG 12/9/2025, 11:13:50 AM  364  trailRemains is 13
+INFO 12/9/2025, 11:13:50 AM  365  [L] installDate is 12/7/2025, trail remains: 13 days
+DEBUG 12/9/2025, 11:13:50 AM  365  onUnfillLicense
+INFO 12/9/2025, 11:13:50 AM  365  [watch L] hasL: false
+INFO 12/9/2025, 11:13:50 AM  377  overwriteThemeFolder
+DEBUG 12/9/2025, 11:13:50 AM  379  after setting 
+INFO 12/9/2025, 11:13:50 AM  379  typora version: 1.12.4
+user-dict.json not found
+DEBUG 12/9/2025, 11:13:50 AM  387  reopen file
+DEBUG 12/9/2025, 11:13:50 AM  387  reopenClosed
+DEBUG 12/9/2025, 11:13:50 AM  387  app.openFile
+DEBUG 12/9/2025, 11:13:50 AM  452  putAccelerator File -> 文件(&F)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator Edit -> 编辑(&E)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator Paragraph -> 段落(&P)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator Format -> 格式(&O)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator View -> 视图(&V)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator Themes -> 主题(&T)
+DEBUG 12/9/2025, 11:13:50 AM  453  putAccelerator Help -> 帮助(&H)
+DEBUG 12/9/2025, 11:13:50 AM  506  added recovery 2 null  (0)
+INFO 12/9/2025, 11:13:50 AM  581  [focus] 2
+INFO 12/9/2025, 11:13:50 AM  603  synced recovery
+INFO 12/9/2025, 11:13:51 AM  796  [blur] 2
+INFO 12/9/2025, 11:13:51 AM  796  [win] blur
+INFO 12/9/2025, 11:13:51 AM  796  [focus] 1
+DEBUG 12/9/2025, 11:13:51 AM  1168  onUnfillLicense
+ERROR 12/9/2025, 11:13:51 AM  1181  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 12/9/2025, 11:13:51 AM  1183  handle document.loadData
+DEBUG 12/9/2025, 11:13:51 AM  1184  document.loadData 1
+ERROR 12/9/2025, 11:13:51 AM  1184  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 12/9/2025, 11:13:51 AM  1258  [RenderProcess 2][Log] [UndoManager] reset commandStack
+INFO 12/9/2025, 11:13:51 AM  1258  [RenderProcess 2][Log] reset NodeMap
+DEBUG 12/9/2025, 11:13:51 AM  1273  added recovery 2   (0)
+INFO 12/9/2025, 11:13:51 AM  1275  synced recovery
+INFO 12/9/2025, 11:13:51 AM  1440  [blur] 1
+INFO 12/9/2025, 11:13:51 AM  1440  [focus] 2
+INFO 12/9/2025, 11:13:51 AM  1485  [RenderProcess 2][Log] onBecomeActive
+INFO 12/9/2025, 11:13:51 AM  1485  [RenderProcess 2][Log] File.activeWindow = true
+INFO 12/9/2025, 11:13:52 AM  2417  [blur] 2
+INFO 12/9/2025, 11:13:52 AM  2417  [win] blur
+INFO 12/9/2025, 11:13:52 AM  2417  [focus] 1
+INFO 12/9/2025, 11:13:52 AM  2521  [focus] 2
+INFO 12/9/2025, 11:13:52 AM  2524  [blur] 2
+INFO 12/9/2025, 11:13:52 AM  2524  [win] blur
+INFO 12/9/2025, 11:13:52 AM  2525  [focus] 2
+DEBUG 12/9/2025, 11:13:54 AM  4379  added recovery 2  "graph TD
+    su..._time))
+    end" (314)
+INFO 12/9/2025, 11:13:54 AM  4380  synced recovery
+DEBUG 12/9/2025, 11:13:56 AM  6624  added recovery 2  ```me (5)
+INFO 12/9/2025, 11:13:56 AM  6626  synced recovery
+DEBUG 12/9/2025, 11:13:59 AM  9541  added recovery 2  "```mermaid
+grap...
+    end
+
+```
+
+" (332)
+INFO 12/9/2025, 11:13:59 AM  9542  synced recovery
+DEBUG 12/9/2025, 11:14:01 AM  11280  added recovery 2  ```mermaid
+
+```
+
+ (17)
+INFO 12/9/2025, 11:14:01 AM  11281  synced recovery
+DEBUG 12/9/2025, 11:14:03 AM  13600  added recovery 2   (0)
+INFO 12/9/2025, 11:14:03 AM  13601  synced recovery
+INFO 12/9/2025, 11:14:05 AM  14997  [blur] 2
+INFO 12/9/2025, 11:14:05 AM  14997  [win] blur
+INFO 12/9/2025, 11:14:19 AM  29359  [focus] 2
+INFO 12/9/2025, 11:14:20 AM  30076  [blur] 2
+INFO 12/9/2025, 11:14:20 AM  30076  [win] blur
+INFO 12/9/2025, 11:14:20 AM  30583  [focus] 2
+INFO 12/9/2025, 11:14:21 AM  31765  synced recovery
+INFO 12/9/2025, 11:14:21 AM  31765  ----------------before-quit-----------------
+INFO 12/9/2025, 11:14:21 AM  31765  ------------------will-quit------------------
+INFO 12/9/2025, 11:14:21 AM  31766  -----------------quit------------------
+INFO 12/9/2025, 11:14:21 AM  31766  closeLogging
+INFO 12/25/2025, 1:13:15 PM  launch with argv [/usr/share/typora/Typora]
+INFO 12/25/2025, 1:13:15 PM  launchFromDiffVersion, pre version is 1.12.4
+INFO 12/25/2025, 1:13:15 PM  start LM in devVersion=false
+INFO 12/25/2025, 1:13:15 PM  [watch L]
+INFO 12/25/2025, 1:13:15 PM  ls put SLicense
+INFO 12/25/2025, 1:13:15 PM  [L] installDate is 12/7/2025, trail remains: 0 days
+INFO 12/25/2025, 1:13:15 PM  [watch L] hasL: false
+INFO 12/25/2025, 1:13:15 PM  cleanupOlderCache
+INFO 12/25/2025, 1:13:15 PM  [Raven] instanceKey = 8163ae14-27bf-4efe-8842-373590d78b13
+INFO 12/25/2025, 1:13:15 PM  overwriteThemeFolder
+INFO 12/25/2025, 1:13:15 PM  ------------------start------------------
+INFO 12/25/2025, 1:13:15 PM  typora version: 1.9.3
+user-dict.json not found
+INFO 12/25/2025, 1:13:16 PM  [Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+INFO 12/25/2025, 1:13:16 PM  synced recovery
+INFO 12/25/2025, 1:13:16 PM  [focus] 1
+ERROR 12/25/2025, 1:13:16 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+INFO 12/25/2025, 1:13:16 PM  handle document.loadData
+ERROR 12/25/2025, 1:13:16 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+INFO 12/25/2025, 1:13:16 PM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 12/25/2025, 1:13:16 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:13:16 PM  synced recovery
+INFO 12/25/2025, 1:13:16 PM  [RenderProcess 1][Log] onBecomeActive
+INFO 12/25/2025, 1:13:16 PM  [RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:13:20 PM  [blur] 1
+INFO 12/25/2025, 1:13:20 PM  [win] blur
+INFO 12/25/2025, 1:13:20 PM  [focus] 2
+INFO 12/25/2025, 1:13:23 PM  [focus] 1
+INFO 12/25/2025, 1:13:23 PM  [blur] 1
+INFO 12/25/2025, 1:13:23 PM  [win] blur
+INFO 12/25/2025, 1:13:23 PM  [focus] 1
+INFO 12/25/2025, 1:13:42 PM  synced recovery
+INFO 12/25/2025, 1:13:42 PM  ----------------before-quit-----------------
+INFO 12/25/2025, 1:13:42 PM  ------------------will-quit------------------
+INFO 12/25/2025, 1:13:42 PM  -----------------quit------------------
+INFO 12/25/2025, 1:13:42 PM  closeLogging
+INFO 12/25/2025, 1:16:41 PM  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+Require crypto
+Hooking crypto
+[watch L]
+ls put SLicense
+[L] installDate is 12/7/2025, trail remains: 0 days
+[watch L] hasL: false
+Require fs
+INFO 12/25/2025, 1:16:41 PM  ------------------start------------------
+typora version: 1.9.3
+[Raven] instanceKey = 6b0bec0f-a28f-4080-b383-e69901fdcfa5
+user-dict.json not found
+[Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[focus] 1
+INFO 12/25/2025, 1:16:41 PM  synced recovery
+ERROR 12/25/2025, 1:16:42 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/25/2025, 1:16:42 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:16:42 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[blur] 1
+[win] blur
+[focus] 2
+Require os
+request https://store.typora.io/api/client/activate
+[fetch]fetch https://store.typora.io/api/client/activate
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH\",\"email\":\"xiemom456@gmail.com\",\"l\":\"XM | xmon | Linux\",\"f\":\"m4x3jacZa4\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\",\"force\":false}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[activate]Fingerprint m4x3jacZa4
+[activate]Email xiemom456@gmail.com
+[activate]UUID 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[activate]License SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH
+[activate]ComputerInfo XM | xmon | Linux
+[fetch]RetCode 200
+[fetch]Ret {"code":-1}
+replace ret: {"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0="}
+[License] response code is 0
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH","type":""}
+ls put SLicense
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+addRecentFolder
+[focus] 1
+File.option.useCustomFontSize=true
+document.body.parentElement.style.fontSize = '14px'
+File.option.useCustomFontSize=false
+document.body.parentElement.style.fontSize = ''
+File.option.zoomByMouse = true;
+INFO 12/25/2025, 1:20:56 PM  synced recovery
+INFO 12/25/2025, 1:20:58 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/To-do.md]
+addRecentDocument
+INFO 12/25/2025, 1:21:00 PM  synced recovery
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/To-do.md
+INFO 12/25/2025, 1:21:00 PM  synced recovery
+INFO 12/25/2025, 1:21:16 PM  synced recovery
+INFO 12/25/2025, 1:21:18 PM  synced recovery
+window.ClientCommand && ClientCommand.setZoomLevel(1)
+window.File && (function(){document.body.classList.remove("show-footer"),document.body.classList.add("hide-footer")})();
+window.File && (function(){document.body.classList.add("show-footer"),document.body.classList.remove("hide-footer")})();
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+File.setCanCollapsePinnedOutline(false);
+File.setCanCollapsePinnedOutline(true);
+window.File && (function(){File.option.enableAutoSave = true;})();
+[blur] 1
+[win] blur
+[focus] 1
+File.option.prettyIndent = true;
+File.option.prettyIndent = false;
+File.option.prettyIndent = true;
+File.option.prettyIndent = false;
+window.File && (function(){File.setDefaultImageStorage("assert");})();
+window.File && (function(){File.setDefaultImageStorage("per-file-assert");})();
+window.File && (function(){File.setDefaultImageStorage("assert");})();
+File.option.allowImageUpload = true
+File.option.allowImageUpload = false
+File.option.useRelativePathForImg = true
+File.option.relativePathWithDot = true
+File.option.relativePathWithDot = false
+File.option.relativePathWithDot = true
+File.option.relativePathWithDot = false
+File.option.relativePathWithDot = true
+File.option.relativePathWithDot = false
+File.option.relativePathWithDot = true
+File.option.autoEscapeImageURL=true;
+File.option.autoEscapeImageURL=false;
+File.option.autoEscapeImageURL=true;
+File.option.autoEscapeImageURL=false;
+File.option.relativePathWithDot = false
+File.option.useRelativePathForImg = false
+File.option.useRelativePathForImg = true
+File.option.relativePathWithDot = true
+File.option.relativePathWithDot = false
+File.option.applyImageMoveForWeb = true
+File.option.applyImageMoveForWeb = false
+File.option.relativePathWithDot = true
+File.option.relativePathWithDot = false
+File.option.relativePathWithDot = true
+File.option.autoEscapeImageURL=true;
+File.option.autoEscapeImageURL=false;
+File.option.relativePathWithDot = false
+File.option.relativePathWithDot = true
+INFO 12/25/2025, 1:23:52 PM  synced recovery
+INFO 12/25/2025, 1:24:01 PM  synced recovery
+INFO 12/25/2025, 1:24:07 PM  synced recovery
+File.option.noWarnigForTypeWriterMode=true;
+File.option.noWarnigForTypeWriterMode=false;
+window.File && (function(){ClientCommand.resetZoom()})();
+window.File && (function(){ClientCommand.resetZoom()})();
+window.File && (function(){ClientCommand.resetZoom()})();
+window.File && (function(){ClientCommand.zoomIn()})();
+ERROR 12/25/2025, 1:25:24 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/25/2025, 1:25:24 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/25/2025, 1:25:24 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ondragstart /home/xmon/Documents/Note/assets/服务器 宝塔面板 /usr/share/typora/resources//style/windows-folder-icon.png
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+window.File && File.option && (File.option.noWarnigForDeleteFile = true)
+switchDocument 1 [/home/xmon/Documents/Note/03 About Obsidian/Configurations.md]
+addRecentDocument
+INFO 12/25/2025, 1:26:57 PM  synced recovery
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/03 About Obsidian/Configurations.md
+INFO 12/25/2025, 1:26:57 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/03 About Obsidian/Grammar.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:26:58 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/03 About Obsidian/Grammar.md
+INFO 12/25/2025, 1:26:58 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/03 About Obsidian/markdown基础语法.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:26:59 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/03 About Obsidian/markdown基础语法.md
+INFO 12/25/2025, 1:26:59 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/03 About Obsidian/Plugins.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:01 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/03 About Obsidian/Plugins.md
+INFO 12/25/2025, 1:27:01 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/04 markdown/CSDN blog.md]
+addRecentDocument
+INFO 12/25/2025, 1:27:08 PM  synced recovery
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/04 markdown/CSDN blog.md
+INFO 12/25/2025, 1:27:08 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/05 Memorandum/Hi75使用说明.md]
+addRecentDocument
+INFO 12/25/2025, 1:27:15 PM  synced recovery
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/05 Memorandum/Hi75使用说明.md
+INFO 12/25/2025, 1:27:15 PM  synced recovery
+INFO 12/25/2025, 1:27:18 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/Dashboard.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:20 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/Dashboard.md
+INFO 12/25/2025, 1:27:20 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/Electron.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:23 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/Electron.md
+INFO 12/25/2025, 1:27:23 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/My Portfolio.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:23 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/My Portfolio.md
+INFO 12/25/2025, 1:27:23 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/Typora激活教程.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:24 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/Typora激活教程.md
+INFO 12/25/2025, 1:27:25 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/全栈项目学习.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:25 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/全栈项目学习.md
+INFO 12/25/2025, 1:27:25 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/全栈项目部署到服务器.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:26 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/全栈项目部署到服务器.md
+INFO 12/25/2025, 1:27:26 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/前后端项目部署到服务器.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:26 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/前后端项目部署到服务器.md
+INFO 12/25/2025, 1:27:26 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/四种寻址方式（8086 CPU）.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:27 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/四种寻址方式（8086 CPU）.md
+INFO 12/25/2025, 1:27:27 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/06 TBD/项目文档参考.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:27 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/06 TBD/项目文档参考.md
+INFO 12/25/2025, 1:27:27 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/01 Final Exam/数据库.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:30 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/01 Final Exam/数据库.md
+INFO 12/25/2025, 1:27:31 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/Algorithm.md]
+addRecentDocument
+INFO 12/25/2025, 1:27:33 PM  synced recovery
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/Algorithm.md
+INFO 12/25/2025, 1:27:33 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/JavaSE.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:34 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/JavaSE.md
+INFO 12/25/2025, 1:27:34 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/JDBC.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:34 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/JDBC.md
+INFO 12/25/2025, 1:27:34 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/MySQL.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:35 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/MySQL.md
+INFO 12/25/2025, 1:27:35 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/SSM.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/25/2025, 1:27:35 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/SSM.md
+INFO 12/25/2025, 1:27:35 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/To-do.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:36 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/To-do.md
+INFO 12/25/2025, 1:27:36 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/07 Java/SSM.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:36 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/SSM.md
+[RenderProcess 1][Log] do restoreEditStateFromData true true
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] [UndoManager] restoreFromJson all: 0 at: -1
+[RenderProcess 1][Log] File.reloadContent, {"fromDiskChange":true,"onInit":true}
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/25/2025, 1:27:36 PM  synced recovery
+INFO 12/25/2025, 1:27:37 PM  synced recovery
+INFO 12/25/2025, 1:28:00 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/25/2025, 1:31:40 PM  synced recovery
+INFO 12/25/2025, 1:31:42 PM  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 12/27/2025, 10:03:07 PM  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH","type":""}
+[fetch]fetch https://store.typora.io/api/client/renew
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\"}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[L] installDate is 12/7/2025, trail remains: 0 days
+[watch L] hasL: true
+Require fs
+INFO 12/27/2025, 10:03:07 PM  ------------------start------------------
+typora version: 1.9.3
+[Raven] instanceKey = 2844f531-a9f2-49cf-8bc3-7654bfc0a338
+user-dict.json not found
+addRecentDocument
+[Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[focus] 1
+INFO 12/27/2025, 10:03:07 PM  synced recovery
+ERROR 12/27/2025, 10:03:08 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/27/2025, 10:03:08 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[fetch]Ret {"success":false}
+replace ret: {"success":true,"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0="}
+ls put SLicense
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/07 Java/SSM.md
+INFO 12/27/2025, 10:03:08 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:06:15 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 2
+ERROR 12/27/2025, 10:06:15 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/27/2025, 10:06:15 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+[RenderProcess 2][Log] [UndoManager] reset commandStack
+[RenderProcess 2][Log] reset NodeMap
+INFO 12/27/2025, 10:06:15 PM  synced recovery
+[RenderProcess 2][Log] onBecomeActive
+[RenderProcess 2][Log] File.activeWindow = true
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+addRecentDocument
+INFO 12/27/2025, 10:06:23 PM  synced recovery
+INFO 12/27/2025, 10:06:37 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 3
+ERROR 12/27/2025, 10:06:38 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+ERROR 12/27/2025, 10:06:38 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+[RenderProcess 3][Log] [UndoManager] reset commandStack
+[RenderProcess 3][Log] reset NodeMap
+INFO 12/27/2025, 10:06:38 PM  synced recovery
+[RenderProcess 3][Log] onBecomeActive
+[RenderProcess 3][Log] File.activeWindow = true
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+switchDocument 1 [/home/xmon/Documents/Note/02 English/.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/27/2025, 10:08:03 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/02 English/.md
+INFO 12/27/2025, 10:08:03 PM  synced recovery
+INFO 12/27/2025, 10:08:15 PM  synced recovery
+addRecentDocument
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:08:54 PM  synced recovery
+INFO 12/27/2025, 10:08:55 PM  synced recovery
+INFO 12/27/2025, 10:08:57 PM  synced recovery
+INFO 12/27/2025, 10:08:58 PM  synced recovery
+INFO 12/27/2025, 10:09:01 PM  synced recovery
+INFO 12/27/2025, 10:09:02 PM  synced recovery
+INFO 12/27/2025, 10:09:04 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:12:24 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:12:27 PM  synced recovery
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:13:12 PM  synced recovery
+INFO 12/27/2025, 10:13:13 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:14:29 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:15:05 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:15:08 PM  synced recovery
+INFO 12/27/2025, 10:15:11 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:15:14 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:16:10 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:17:12 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:17:21 PM  synced recovery
+INFO 12/27/2025, 10:17:27 PM  synced recovery
+INFO 12/27/2025, 10:17:29 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:17:30 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:17:33 PM  synced recovery
+INFO 12/27/2025, 10:17:35 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:17:37 PM  synced recovery
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:17:51 PM  synced recovery
+INFO 12/27/2025, 10:17:53 PM  synced recovery
+INFO 12/27/2025, 10:17:54 PM  synced recovery
+INFO 12/27/2025, 10:17:56 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:18:55 PM  synced recovery
+INFO 12/27/2025, 10:18:58 PM  synced recovery
+INFO 12/27/2025, 10:19:00 PM  synced recovery
+INFO 12/27/2025, 10:19:01 PM  synced recovery
+INFO 12/27/2025, 10:19:02 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:20:13 PM  synced recovery
+INFO 12/27/2025, 10:20:15 PM  synced recovery
+INFO 12/27/2025, 10:20:17 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:20:24 PM  synced recovery
+INFO 12/27/2025, 10:20:26 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:20:30 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:20:41 PM  synced recovery
+INFO 12/27/2025, 10:20:43 PM  synced recovery
+INFO 12/27/2025, 10:20:45 PM  synced recovery
+INFO 12/27/2025, 10:20:48 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:21:35 PM  synced recovery
+INFO 12/27/2025, 10:21:46 PM  synced recovery
+INFO 12/27/2025, 10:21:50 PM  synced recovery
+INFO 12/27/2025, 10:21:53 PM  synced recovery
+INFO 12/27/2025, 10:21:58 PM  synced recovery
+INFO 12/27/2025, 10:22:00 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:22:15 PM  synced recovery
+INFO 12/27/2025, 10:22:16 PM  synced recovery
+INFO 12/27/2025, 10:22:18 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:22:21 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:22:26 PM  synced recovery
+INFO 12/27/2025, 10:22:27 PM  synced recovery
+INFO 12/27/2025, 10:22:37 PM  synced recovery
+INFO 12/27/2025, 10:22:40 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:23:11 PM  synced recovery
+INFO 12/27/2025, 10:23:13 PM  synced recovery
+INFO 12/27/2025, 10:23:16 PM  synced recovery
+INFO 12/27/2025, 10:23:23 PM  synced recovery
+INFO 12/27/2025, 10:23:25 PM  synced recovery
+INFO 12/27/2025, 10:23:33 PM  synced recovery
+INFO 12/27/2025, 10:23:34 PM  synced recovery
+INFO 12/27/2025, 10:23:36 PM  synced recovery
+INFO 12/27/2025, 10:23:38 PM  synced recovery
+INFO 12/27/2025, 10:23:40 PM  synced recovery
+INFO 12/27/2025, 10:23:41 PM  synced recovery
+INFO 12/27/2025, 10:23:42 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:24:17 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:24:19 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:24:23 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:24:30 PM  synced recovery
+INFO 12/27/2025, 10:24:33 PM  synced recovery
+INFO 12/27/2025, 10:24:44 PM  synced recovery
+INFO 12/27/2025, 10:25:00 PM  synced recovery
+INFO 12/27/2025, 10:25:08 PM  synced recovery
+INFO 12/27/2025, 10:25:16 PM  synced recovery
+INFO 12/27/2025, 10:25:18 PM  synced recovery
+INFO 12/27/2025, 10:25:22 PM  synced recovery
+INFO 12/27/2025, 10:25:24 PM  synced recovery
+INFO 12/27/2025, 10:25:25 PM  synced recovery
+INFO 12/27/2025, 10:25:27 PM  synced recovery
+INFO 12/27/2025, 10:25:34 PM  synced recovery
+INFO 12/27/2025, 10:25:44 PM  synced recovery
+INFO 12/27/2025, 10:25:46 PM  synced recovery
+INFO 12/27/2025, 10:25:49 PM  synced recovery
+INFO 12/27/2025, 10:25:53 PM  synced recovery
+INFO 12/27/2025, 10:26:05 PM  synced recovery
+INFO 12/27/2025, 10:26:09 PM  synced recovery
+INFO 12/27/2025, 10:26:14 PM  synced recovery
+INFO 12/27/2025, 10:26:21 PM  synced recovery
+INFO 12/27/2025, 10:26:22 PM  synced recovery
+INFO 12/27/2025, 10:26:24 PM  synced recovery
+INFO 12/27/2025, 10:26:26 PM  synced recovery
+INFO 12/27/2025, 10:26:28 PM  synced recovery
+INFO 12/27/2025, 10:26:33 PM  synced recovery
+INFO 12/27/2025, 10:26:37 PM  synced recovery
+INFO 12/27/2025, 10:26:40 PM  synced recovery
+INFO 12/27/2025, 10:26:46 PM  synced recovery
+INFO 12/27/2025, 10:26:50 PM  synced recovery
+INFO 12/27/2025, 10:26:51 PM  synced recovery
+INFO 12/27/2025, 10:26:53 PM  synced recovery
+INFO 12/27/2025, 10:26:58 PM  synced recovery
+INFO 12/27/2025, 10:27:04 PM  synced recovery
+INFO 12/27/2025, 10:27:06 PM  synced recovery
+INFO 12/27/2025, 10:27:07 PM  synced recovery
+INFO 12/27/2025, 10:27:11 PM  synced recovery
+INFO 12/27/2025, 10:27:13 PM  synced recovery
+INFO 12/27/2025, 10:27:16 PM  synced recovery
+INFO 12/27/2025, 10:27:35 PM  synced recovery
+INFO 12/27/2025, 10:27:37 PM  synced recovery
+INFO 12/27/2025, 10:27:41 PM  synced recovery
+INFO 12/27/2025, 10:27:44 PM  synced recovery
+INFO 12/27/2025, 10:27:45 PM  synced recovery
+INFO 12/27/2025, 10:27:46 PM  synced recovery
+INFO 12/27/2025, 10:27:49 PM  synced recovery
+INFO 12/27/2025, 10:27:51 PM  synced recovery
+INFO 12/27/2025, 10:27:52 PM  synced recovery
+INFO 12/27/2025, 10:27:57 PM  synced recovery
+INFO 12/27/2025, 10:28:00 PM  synced recovery
+INFO 12/27/2025, 10:28:04 PM  synced recovery
+INFO 12/27/2025, 10:28:12 PM  synced recovery
+INFO 12/27/2025, 10:28:13 PM  synced recovery
+INFO 12/27/2025, 10:28:15 PM  synced recovery
+INFO 12/27/2025, 10:28:16 PM  synced recovery
+INFO 12/27/2025, 10:28:20 PM  synced recovery
+INFO 12/27/2025, 10:28:26 PM  synced recovery
+[RenderProcess 1][Log] File.reloadContent, {"delayRefresh":true,"skipChangeCount":true,"skipStore":true}
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/27/2025, 10:28:30 PM  synced recovery
+INFO 12/27/2025, 10:28:35 PM  synced recovery
+INFO 12/27/2025, 10:28:38 PM  synced recovery
+INFO 12/27/2025, 10:28:49 PM  synced recovery
+INFO 12/27/2025, 10:28:52 PM  synced recovery
+INFO 12/27/2025, 10:28:54 PM  synced recovery
+INFO 12/27/2025, 10:28:57 PM  synced recovery
+INFO 12/27/2025, 10:28:59 PM  synced recovery
+INFO 12/27/2025, 10:29:00 PM  synced recovery
+INFO 12/27/2025, 10:29:02 PM  synced recovery
+INFO 12/27/2025, 10:29:06 PM  synced recovery
+INFO 12/27/2025, 10:29:08 PM  synced recovery
+INFO 12/27/2025, 10:29:09 PM  synced recovery
+INFO 12/27/2025, 10:29:13 PM  synced recovery
+INFO 12/27/2025, 10:29:19 PM  synced recovery
+INFO 12/27/2025, 10:29:21 PM  synced recovery
+INFO 12/27/2025, 10:29:25 PM  synced recovery
+INFO 12/27/2025, 10:29:26 PM  synced recovery
+INFO 12/27/2025, 10:29:29 PM  synced recovery
+INFO 12/27/2025, 10:29:32 PM  synced recovery
+INFO 12/27/2025, 10:29:36 PM  synced recovery
+INFO 12/27/2025, 10:29:39 PM  synced recovery
+INFO 12/27/2025, 10:29:41 PM  synced recovery
+INFO 12/27/2025, 10:29:42 PM  synced recovery
+INFO 12/27/2025, 10:29:45 PM  synced recovery
+INFO 12/27/2025, 10:29:46 PM  synced recovery
+INFO 12/27/2025, 10:29:49 PM  synced recovery
+INFO 12/27/2025, 10:29:53 PM  synced recovery
+INFO 12/27/2025, 10:29:56 PM  synced recovery
+INFO 12/27/2025, 10:29:59 PM  synced recovery
+INFO 12/27/2025, 10:30:04 PM  synced recovery
+INFO 12/27/2025, 10:30:07 PM  synced recovery
+INFO 12/27/2025, 10:30:12 PM  synced recovery
+INFO 12/27/2025, 10:30:20 PM  synced recovery
+INFO 12/27/2025, 10:30:27 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:30:53 PM  synced recovery
+INFO 12/27/2025, 10:30:56 PM  synced recovery
+INFO 12/27/2025, 10:31:02 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:34:02 PM  synced recovery
+INFO 12/27/2025, 10:34:06 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:34:07 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:34:11 PM  synced recovery
+INFO 12/27/2025, 10:34:12 PM  synced recovery
+INFO 12/27/2025, 10:34:16 PM  synced recovery
+INFO 12/27/2025, 10:34:20 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:36:08 PM  synced recovery
+INFO 12/27/2025, 10:36:13 PM  synced recovery
+INFO 12/27/2025, 10:36:16 PM  synced recovery
+INFO 12/27/2025, 10:36:18 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:40:14 PM  synced recovery
+INFO 12/27/2025, 10:40:21 PM  synced recovery
+INFO 12/27/2025, 10:40:23 PM  synced recovery
+INFO 12/27/2025, 10:40:32 PM  synced recovery
+INFO 12/27/2025, 10:40:37 PM  synced recovery
+INFO 12/27/2025, 10:40:39 PM  synced recovery
+INFO 12/27/2025, 10:40:41 PM  synced recovery
+INFO 12/27/2025, 10:40:43 PM  synced recovery
+INFO 12/27/2025, 10:40:50 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:42:28 PM  synced recovery
+INFO 12/27/2025, 10:42:30 PM  synced recovery
+INFO 12/27/2025, 10:42:33 PM  synced recovery
+INFO 12/27/2025, 10:42:35 PM  synced recovery
+INFO 12/27/2025, 10:42:37 PM  synced recovery
+INFO 12/27/2025, 10:42:41 PM  synced recovery
+INFO 12/27/2025, 10:42:47 PM  synced recovery
+INFO 12/27/2025, 10:42:48 PM  synced recovery
+INFO 12/27/2025, 10:42:51 PM  synced recovery
+INFO 12/27/2025, 10:42:55 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:42:56 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:43:25 PM  synced recovery
+INFO 12/27/2025, 10:43:33 PM  synced recovery
+INFO 12/27/2025, 10:43:35 PM  synced recovery
+INFO 12/27/2025, 10:43:38 PM  synced recovery
+INFO 12/27/2025, 10:43:40 PM  synced recovery
+INFO 12/27/2025, 10:43:42 PM  synced recovery
+INFO 12/27/2025, 10:43:43 PM  synced recovery
+INFO 12/27/2025, 10:43:46 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:44:08 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:46:18 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 10:46:22 PM  synced recovery
+[focus] 1
+INFO 12/27/2025, 10:46:51 PM  synced recovery
+INFO 12/27/2025, 10:46:56 PM  synced recovery
+INFO 12/27/2025, 10:47:07 PM  synced recovery
+INFO 12/27/2025, 10:47:11 PM  synced recovery
+INFO 12/27/2025, 10:47:13 PM  synced recovery
+INFO 12/27/2025, 10:47:15 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:47:54 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:50:21 PM  synced recovery
+INFO 12/27/2025, 10:50:26 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:50:40 PM  synced recovery
+INFO 12/27/2025, 10:50:42 PM  synced recovery
+INFO 12/27/2025, 10:50:44 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:51:29 PM  synced recovery
+INFO 12/27/2025, 10:51:35 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:54:26 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:54:40 PM  synced recovery
+INFO 12/27/2025, 10:54:41 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:59:14 PM  synced recovery
+INFO 12/27/2025, 10:59:17 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:59:22 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 10:59:28 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 11:00:17 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 11:00:19 PM  synced recovery
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 11:01:42 PM  synced recovery
+INFO 12/27/2025, 11:01:44 PM  synced recovery
+INFO 12/27/2025, 11:01:48 PM  synced recovery
+INFO 12/27/2025, 11:01:50 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 11:02:57 PM  synced recovery
+[blur] 1
+[win] blur
+INFO 12/27/2025, 11:03:04 PM  synced recovery
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 11:14:06 PM  synced recovery
+INFO 12/27/2025, 11:14:12 PM  synced recovery
+INFO 12/27/2025, 11:14:14 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/27/2025, 11:42:18 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+INFO 12/28/2025, 4:19:34 PM  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH","type":""}
+[fetch]fetch https://store.typora.io/api/client/renew
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\"}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[L] installDate is 12/7/2025, trail remains: 0 days
+[watch L] hasL: true
+Require fs
+INFO 12/28/2025, 4:19:34 PM  ------------------start------------------
+typora version: 1.9.3
+[Raven] instanceKey = 6be637b5-8d68-42a3-8932-2731da6a7b15
+user-dict.json not found
+INFO 12/28/2025, 4:19:34 PM  launch from abnormal quit
+cleanupOlderCache
+INFO 12/28/2025, 4:19:34 PM  recoverWindow {"id":1,"path":"/home/xmon/Documents/Note/02 English/Orange Is the New Black.md","untitledId":1766844483547,"type":"","useCRLF":false,"hasUnsaved":false,"scrollPos":379.1666564941406,"syncDate":1766850138264,"mountFolder":"/home/xmon/Documents/Note","bound":{"x":299,"y":129,"width":1430,"height":778}}
+addRecentDocument
+[Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[focus] 1
+INFO 12/28/2025, 4:19:34 PM  synced recovery
+ERROR 12/28/2025, 4:19:34 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/28/2025, 4:19:34 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/02 English/Orange Is the New Black.md
+INFO 12/28/2025, 4:19:34 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[fetch]Ret {"success":false}
+replace ret: {"success":true,"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0="}
+ls put SLicense
+switchDocument 1 [/home/xmon/Documents/Note/Q.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/28/2025, 4:19:54 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/Q.md
+INFO 12/28/2025, 4:19:54 PM  synced recovery
+INFO 12/28/2025, 4:19:57 PM  synced recovery
+INFO 12/28/2025, 4:20:02 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/28/2025, 4:21:07 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/28/2025, 4:29:46 PM  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 12/29/2025, 2:45:25 PM  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0=
+backdoor data,return : {"fingerprint":"m4x3jacZa4","email":"xiemom456@gmail.com","license":"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH","type":""}
+[fetch]fetch https://store.typora.io/api/client/renew
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.9.3\",\"license\":\"SZJMYL-AQ9PVH-5XQ7TZ-DSNXEH\",\"u\":\"9ff4fcac-5b3e-40eb-9332-6b062fa61d0f\",\"type\":\"\"}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[L] installDate is 12/7/2025, trail remains: 0 days
+[watch L] hasL: true
+Require fs
+INFO 12/29/2025, 2:45:25 PM  ------------------start------------------
+typora version: 1.9.3
+[Raven] instanceKey = dc772479-4f3a-42fa-a080-6e4a1eba08a0
+user-dict.json not found
+[Raven] userId = 9ff4fcac-5b3e-40eb-9332-6b062fa61d0f
+[focus] 1
+INFO 12/29/2025, 2:45:25 PM  synced recovery
+ERROR 12/29/2025, 2:45:26 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+handle document.loadData
+ERROR 12/29/2025, 2:45:26 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:488:12)
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/29/2025, 2:45:26 PM  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[fetch]Ret {"success":false}
+replace ret: {"success":true,"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoibTR4M2phY1phNCIsImVtYWlsIjoieGllbW9tNDU2QGdtYWlsLmNvbSIsImxpY2Vuc2UiOiJTWkpNWUwtQVE5UFZILTVYUTdUWi1EU05YRUgiLCJ0eXBlIjoiIn0="}
+ls put SLicense
+switchDocument 1 [/home/xmon/Documents/Note/To-do.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 12/29/2025, 2:45:27 PM  synced recovery
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/To-do.md
+INFO 12/29/2025, 2:45:27 PM  synced recovery
+INFO 12/29/2025, 2:45:33 PM  synced recovery
+switchDocument 1 [/home/xmon/Documents/Note/1.md]
+addRecentDocument
+[RenderProcess 1][Log] File.activeWindow = true
+INFO 12/29/2025, 2:45:33 PM  synced recovery
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+[RenderProcess 1][Log] readContentFrom /home/xmon/Documents/Note/1.md
+INFO 12/29/2025, 2:45:33 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/29/2025, 2:45:44 PM  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 12/29/2025, 2:56:08 PM  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
